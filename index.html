@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Woo | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Home</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>  
+
+    <main>
+        <header id="home" class="header-section">
+            <div class="container">
+                <h1>Hello, I'm <span>Justin Woo</span></h1>
+                <a href="#projects" class="btn">View My Projects</a>
+            </div>
+        </header>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="images/image0.jpg" alt="Profile Picture" class="profile-img">
+                    <div class="bio">
+                        <p>
+                            Hello there! My name is Justin and I am currently serving my national service. I have a background in Food, Nutrition, and Culinary Sciences, but my passion for continuous learning has led me into the world of coding. I have developed proficiencies in Python, JavaScript, HTML, and C#. You can find more of my personal projects and certification projects over at my Github.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Key Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <a href="https://github.com/Catefishh/HTML-Scraper">
+                            <img src="https://github-readme-stats.vercel.app/api/pin/?username=Catefishh&repo=HTML-Scraper&theme=dark" alt="Project 1" class="project-img">
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://github.com/Catefishh/Random-forest-stock-prediction">
+                            <img src="https://github-readme-stats.vercel.app/api/pin/?username=Catefishh&repo=Random-forest-stock-prediction&theme=dark" alt="Project 2" class="project-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <i class="fab fa-html5 skill-icon-html"></i>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="80%" data-level="high"><span class="progress-label"></span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-css3-alt skill-icon-css"></i>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="80%" data-level="high"><span class="progress-label"></span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-python skill-icon-python"></i>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="85%" data-level="high"><span class="progress-label"></span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-js-square skill-icon-js"></i>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="70%" data-level="medium"><span class="progress-label"></span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="csharp.png" class="skill-img">
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="60%" data-level="medium"><span class="progress-label"></span></div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="contact-links">
+                    <a href="https://github.com/Catefishh" target="_blank" class="contact-link">
+                        <i class="fab fa-github contact-link-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/justin-woo-1b907222b/" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>        
+    </main>
+
+    <footer class="footer-section">
+        <div class="container">
+            <p>&copy; 2024 Justin Woo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
